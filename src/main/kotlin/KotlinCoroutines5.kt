@@ -6,7 +6,7 @@ fun main() = runBlocking {
         for (i in 0..500){
             println("$i.")
             //cooperative suspending function
-            delay(50) //yield()
+            delay(10) //yield()
         }
         /*for (i in 0..500){
             //using flag with non-cooperative
@@ -16,7 +16,7 @@ fun main() = runBlocking {
             Thread.sleep(1)
         }*/
     }
-    delay(10)
+    delay(40)
     job.cancelAndJoin()
     println("\nMain ends:${Thread.currentThread().name}")
 }
