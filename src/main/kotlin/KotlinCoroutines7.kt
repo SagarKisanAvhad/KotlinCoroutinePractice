@@ -11,7 +11,7 @@ fun main() = runBlocking {
                 println("\npost exception code in try")
             }
         } catch (ex: CancellationException) {
-            println("\nCatch executing")
+            println("\nCatch executing: ${ex.localizedMessage}")
         } finally {
             withContext(NonCancellable) {
                 delay(1000)
@@ -20,6 +20,7 @@ fun main() = runBlocking {
         }
     }
     delay(40)
-    job.cancelAndJoin()
+    job.cancel(CancellationException("My Own Message"))
+    job.join()
     println("\nMain ends:${Thread.currentThread().name}")
 }
