@@ -45,6 +45,12 @@
 1. Types of Coroutines: BlockingCoroutine, StandAloneCoroutine and DefferedCoroutine. These types come to know from CoroutineScope
 2. CoroutineContext elements: Dispatchers(It decides threads), CoroutineName and Job
 
+==========Thumb Rule for using Coroutine===============
+1. Use 'withContext' when you do not need the parallel execution
+2. Use 'async' only when you need the parallel execution
+3. Both 'withContext' and 'async' can be used to get the result which is not possible with 'launch' 
+4. Use 'withContext' to return the result of a single task
+5. Use 'async' for results from multiple tasks that run in parallel
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
