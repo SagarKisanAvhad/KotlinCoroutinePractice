@@ -52,6 +52,10 @@
 4. Use 'withContext' to return the result of a single task
 5. Use 'async' for results from multiple tasks that run in parallel
 
+===============Good coroutine articles references=======
+1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
+2) [How does suspension work in Kotlin coroutines?](https://kt.academy/article/cc-suspension) - Kt Academy
+
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
 
