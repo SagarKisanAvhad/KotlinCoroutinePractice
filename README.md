@@ -55,6 +55,7 @@
 ===============Good coroutine articles references=======
 1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
 2) [How does suspension work in Kotlin coroutines?](https://kt.academy/article/cc-suspension) - Kt Academy
+3) [Flow, StateFlow, shared flow testing emitting and collecting side](https://codingwithmohit.com/coroutines/learning-shared-and-state-flows-with-tests/) - coding with mohit. After 2 days struggle, finally found.
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
