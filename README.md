@@ -56,7 +56,8 @@
 1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
 2) [How does suspension work in Kotlin coroutines?](https://kt.academy/article/cc-suspension) - Kt Academy
 3) [Flow, StateFlow, shared flow testing emitting and collecting side](https://codingwithmohit.com/coroutines/learning-shared-and-state-flows-with-tests/) - coding with mohit. After 2 days struggle, finally found.
-4) [Kotlin corouting Use cases example](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - LukasLechnerDev GitHub
+4) [Kotlin coroutine Use cases example](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - LukasLechnerDev GitHub
+5) [Kotlin coroutine](https://magdamiu.medium.com/kotlin-coroutines-7938b5c7a11b)- medium article by Magda Miu
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
