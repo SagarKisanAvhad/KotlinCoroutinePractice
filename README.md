@@ -58,6 +58,9 @@
 3) [Flow, StateFlow, shared flow testing emitting and collecting side](https://codingwithmohit.com/coroutines/learning-shared-and-state-flows-with-tests/) - coding with mohit. After 2 days struggle, finally found.
 4) [Kotlin coroutine Use cases example](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - LukasLechnerDev GitHub
 5) [Kotlin coroutine](https://magdamiu.medium.com/kotlin-coroutines-7938b5c7a11b)- medium article by Magda Miu
+6) [Android developer medium](https://medium.com/androiddevelopers/coroutines-on-android-part-i-getting-the-background-3e0e54d20bb)- Neeraj shared
+7) [Android developer medium](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)- Neeraj shared
+8) [Roman](https://elizarov.medium.com/?source=post_page-----f2cc748b2401--------------------------------) - Neeraj shared
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
