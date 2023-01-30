@@ -10,7 +10,7 @@
 
 ======Coroutine and its builders========
 
-1. Coroutine builders are use for creating coroutine. There are 5 ways to create coroutine: launch, async , runBlocking, and withContext(), withTimeout(), withTimeoutOrNull()
+1. Coroutine builders are use for creating coroutine. There are 3 ways to create coroutine: launch, async , runBlocking
 2. Similarity in launch and async is they create coroutine that doesn’t block thread.
 3. runBlocking create coroutine that block thread. It is use when we need to call suspend function from main thread and  while testing suspend function.
 4. Always remember two things regarding coroutine, thread on which it is working and coroutineScope
@@ -29,7 +29,7 @@
 2. For cancelling non-cooperative coroutine, we can use isActive flag.
 3. If we cancel, cancellable coroutine then cooperative suspend function throws CancellationException
 4. We can not run suspend function from finally block, because Coroutine running this code is already cancelled. Still if we want to run suspend function in finally block then wrap the code within withContext(NonCancellable) function
-5. withContext() also create coroutine on different context.
+5. withContext() is used for changing coroutine context. it makes main safe suspend function.
 6. withTimeout() and withTimeoutNull() are also coroutine builder. Both usages for time bounded coroutine operation. Both return lambda result. withTimeout() throws TimeoutCancellationException on timeout.
 
 
