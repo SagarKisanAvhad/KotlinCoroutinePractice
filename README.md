@@ -53,12 +53,19 @@
 5. Use 'async' for results from multiple tasks that run in parallel
 
 ==========Coroutine notepoint from kotlin coroutine playlist in android developers youtube channel===============
-1. What problem does coroutine solve?
-Ans: It simplify asynchronous programing. we dont need to write callback. kotlin internally writes callback.
-2. What is coroutine?
-Ans:
-3. What is main safe function
-Ans: suspend function that take responsibility for switching the thread. it doesn't rely on caller side. use withContext() for changing thread.
+1. What problem does coroutine solve?<br>
+Ans: It simplify asynchronous programing. we dont need to write callback. kotlin internally writes callback.<br>
+2. What is coroutine?<br>
+Ans:<br>
+3. What is main safe function?<br>
+Ans: suspend function that take responsibility for switching the thread. it doesn't rely on caller side. use withContext() for changing thread.<br>
+<img width="771" alt="Screenshot 2023-03-07 at 9 18 51 PM" src="https://user-images.githubusercontent.com/29921265/223474408-a1925e74-05bd-40ee-a98a-f1f21f23b0c8.png">
+4. What types of dispatchers in coroutine?<br>
+Ans:<br>
+<img width="606" alt="Screenshot 2023-03-07 at 9 23 24 PM" src="https://user-images.githubusercontent.com/29921265/223476187-d85d56f3-9197-4ea5-afd9-70ea1bcf69d0.png">
+
+
+
 
 ===============Good coroutine articles references=======
 1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
