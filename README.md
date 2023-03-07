@@ -10,6 +10,8 @@
 
 ======Coroutine and its builders========
 
+<img width="1522" alt="Screenshot 2023-03-07 at 9 50 29 PM" src="https://user-images.githubusercontent.com/29921265/223483772-492a07d5-c33b-4604-8f51-05992a06d76d.png">
+
 1. Coroutine builders are use for creating coroutine. There are 3 ways to create coroutine: launch, async , runBlocking
 2. Similarity in launch and async is they create coroutine that doesn’t block thread.
 3. runBlocking create coroutine that block thread. It is use when we need to call suspend function from main thread and  while testing suspend function.
