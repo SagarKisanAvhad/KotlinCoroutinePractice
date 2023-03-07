@@ -52,6 +52,14 @@
 4. Use 'withContext' to return the result of a single task
 5. Use 'async' for results from multiple tasks that run in parallel
 
+==========Coroutine notepoint from kotlin coroutine playlist in android developers youtube channel===============
+1. What problem does coroutine solve?
+Ans: It simplify asynchronous programing. we dont need to write callback. kotlin internally writes callback.
+2. What is coroutine?
+Ans:
+3. What is main safe function
+Ans: suspend function that take responsibility for switching the thread. it doesn't rely on caller side. use withContext() for changing thread.
+
 ===============Good coroutine articles references=======
 1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
 2) [How does suspension work in Kotlin coroutines?](https://kt.academy/article/cc-suspension) - Kt Academy
