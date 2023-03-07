@@ -56,7 +56,7 @@
 1. What problem does coroutine solve?<br>
 Ans: It simplify asynchronous programing. we dont need to write callback. kotlin internally writes callback.<br>
 2. What is coroutine?<br>
-Ans:<br>
+Ans: Runnable with superpowers. it takes a block of code and run it on a perticular thread. other perks like cancellation and exception handling. Cancellation and exception handling are very difficult in other versions of asynchronous programing, for example callback.<br>
 3. What is main safe function?<br>
 Ans: suspend function that take responsibility for switching the thread. it doesn't rely on caller side. use withContext() for changing thread.<br>
 <img width="771" alt="Screenshot 2023-03-07 at 9 18 51 PM" src="https://user-images.githubusercontent.com/29921265/223474408-a1925e74-05bd-40ee-a98a-f1f21f23b0c8.png">
