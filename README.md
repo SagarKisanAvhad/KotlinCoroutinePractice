@@ -61,6 +61,7 @@
 6) [Android developer medium](https://medium.com/androiddevelopers/coroutines-on-android-part-i-getting-the-background-3e0e54d20bb)- Neeraj shared
 7) [Android developer medium](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)- Neeraj shared
 8) [Roman](https://elizarov.medium.com/?source=post_page-----f2cc748b2401--------------------------------) - Neeraj shared
+9) [Asynchronous programming](https://www.bmc.com/blogs/asynchronous-programming/) - beautiful blog by bmc. general concept.
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
