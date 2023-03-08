@@ -38,11 +38,11 @@
 
 
 ========== Unit testing coroutines =================<br>
-**USE CASE 1**<br>
+**USE CASE 1: For testing suspend function**<br>
 <img width="950" alt="Screenshot 2023-03-07 at 10 23 50 PM" src="https://user-images.githubusercontent.com/29921265/223492639-62a30ee8-5d77-4631-ab80-c852fba5f62d.png">
 <img width="1353" alt="Screenshot 2023-03-07 at 10 24 57 PM" src="https://user-images.githubusercontent.com/29921265/223492995-ad528fb4-e2e3-4448-a524-f3ce79d5a655.png">
 
-**USE CASE 2**<br>
+**USE CASE 2: For testing a function that trigger a coroutine**<br>
 <img width="911" alt="Screenshot 2023-03-07 at 10 26 13 PM" src="https://user-images.githubusercontent.com/29921265/223493268-3961c4f8-152b-4c8f-8b61-8f3194e30a16.png">
 <img width="1637" alt="Screenshot 2023-03-07 at 10 27 57 PM" src="https://user-images.githubusercontent.com/29921265/223493779-6d53ce18-4cdf-4e19-8f5d-17b2c0657a34.png">
 
