@@ -15,7 +15,7 @@
 1. Coroutine builders are use for creating coroutine. There are 3 ways to create coroutine: launch, async , runBlocking
 2. Similarity in launch and async is they create coroutine that doesn’t block thread.
 3. runBlocking create coroutine that block thread. It is use when we need to call suspend function from main thread and  while testing suspend function.
-4. Always remember two things regarding coroutine, thread on which it is working and coroutineScope
+4. Always remember two things regarding coroutine, thread on which it is executing and coroutineScope
 5. launch and async inherits parent coroutine thread and coroutineScope
 6. runBlocking creates coroutine on caller thread.
 7. When we use GlobalScope with launch/async for creating coroutine then our coroutine will have global scope means App level. This is the easiest way to launch coroutine but only use when needed.
