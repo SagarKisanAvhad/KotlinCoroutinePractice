@@ -90,13 +90,14 @@ Ans:<br>
 
 1) [Coroutines under the hood](https://kt.academy/article/cc-under-the-hood) - Kt Academy
 2) [How does suspension work in Kotlin coroutines?](https://kt.academy/article/cc-suspension) - Kt Academy
-3) [Flow, StateFlow, shared flow testing emitting and collecting side](https://codingwithmohit.com/coroutines/learning-shared-and-state-flows-with-tests/) - coding with mohit. After 2 days struggle, finally found.
-4) [Kotlin coroutine Use cases example](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - LukasLechnerDev GitHub
-5) [Kotlin coroutine](https://magdamiu.medium.com/kotlin-coroutines-7938b5c7a11b)- medium article by Magda Miu
-6) [Android developer medium](https://medium.com/androiddevelopers/coroutines-on-android-part-i-getting-the-background-3e0e54d20bb)- Neeraj shared
-7) [Android developer medium](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)- Neeraj shared
-8) [Roman](https://elizarov.medium.com/?source=post_page-----f2cc748b2401--------------------------------) - Neeraj shared
-9) [Asynchronous programming](https://www.bmc.com/blogs/asynchronous-programming/) - beautiful blog by bmc. general concept.
+3) [Suspend function under the hood simple article](https://betterprogramming.pub/kotlin-coroutine-internals-49518ecf2977) - shared by Athul Antony
+4) [Flow, StateFlow, shared flow testing emitting and collecting side](https://codingwithmohit.com/coroutines/learning-shared-and-state-flows-with-tests/) - coding with mohit. After 2 days struggle, finally found.
+5) [Kotlin coroutine Use cases example](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android) - LukasLechnerDev GitHub
+6) [Kotlin coroutine](https://magdamiu.medium.com/kotlin-coroutines-7938b5c7a11b)- medium article by Magda Miu
+7) [Android developer medium](https://medium.com/androiddevelopers/coroutines-on-android-part-i-getting-the-background-3e0e54d20bb)- Neeraj shared
+8) [Android developer medium](https://medium.com/androiddevelopers/exceptions-in-coroutines-ce8da1ec060c)- Neeraj shared
+9) [Roman](https://elizarov.medium.com/?source=post_page-----f2cc748b2401--------------------------------) - Neeraj shared
+10) [Asynchronous programming](https://www.bmc.com/blogs/asynchronous-programming/) - beautiful blog by bmc. general concept.
 
 Find this project useful?:heart:
 - Support it by clicking the ⭐ button on the upper right of this page. :v:
